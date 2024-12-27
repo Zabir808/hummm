@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Background </title>
+
+    <style>
+        /* Body styling for the page*/
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        /*Sidebar styling*/
+        .sidebar {
+            position: fixed;
+            width: 200px;
+            height: 100vh;
+            background-color: #333;
+            color: wheat;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .sidebar h2 {
+            color: #f0f0f0;
+        }
+
+        .sidebar ul {
+            list-style: none;
+        }
+
+        .sidebar ul li {
+            margin: 15px 0;
+        }
+
+        /* Article section styling*/
+        .article {
+            margin-left: 220px;
+            /* Space for the fixed sidebar */
+            padding: 20px;
+            width: calc(100% - 220px);
+            background-color: #f9f9f9;
+        }
+
+        .article h1 {
+            color: #333;
+        }
+
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .image-gallery img {
+            width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .image-gallery img:hover {
+            opacity: 0.5;
+        }
+
+        #img1 {
+            width: 300px;
+            height: 200px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Sidebar Section-->
+    <div class="Sidebar">
+        <h2>Sidebar Menu</h2>
+        <ul>
+            <li><a href="https://open.spotify.com/" style="color: azure; text-decoration: none;">Home</a></li>
+            <li><a href="#" style="color: aquamarine;text-decoration: none;">About</a></li>
+            <li><a href="#" style="color: aquamarine;text-decoration: none;">Services</a></li>
+            <li><a href="#" style="color: aquamarine;text-decoration: none;">Contact</a></li>
+        </ul>
+    </div>
+    <!-- Article Selection-->
+    <div class="Article">
+        <h1>Article Title</h1>
+        <p>Adolf Hitler remains one of the most reviled figures in world history due to his role in causing the deaths
+            of millions
+            during World War II, particularly the Holocaust. His regime's genocidal policies, aggressive territorial
+            expansion, and
+            racial hatred left an indelible mark on the 20th century and led to the loss of tens of millions of lives.
+            His actions
+            led to the collapse of Nazi Germany and the establishment of a new world order, with the United Nations, the
+            European
+            Union, and other international bodies created in the aftermath of the war to prevent future global</p>
+        <!-- Image Gallary Selection -->
+        <div class="image-gallary">
+            <img src="https://i.kym-cdn.com/editorials/icons/mobile/000/010/866/just-a-chill-guy.jpg" alt="Image 1"
+                id="img1">
+            <img src="https://i.kym-cdn.com/editorials/icons/mobile/000/010/866/just-a-chill-guy.jpg" alt="Image 1"
+                id="img1">
+            <img src="https://i.kym-cdn.com/editorials/icons/mobile/000/010/866/just-a-chill-guy.jpg" alt="Image 1"
+                id="img1">
+            <img src="https://i.kym-cdn.com/editorials/icons/mobile/000/010/866/just-a-chill-guy.jpg" alt="Image 1"
+                id="img1">
+        </div>
+        <div class="image-gallary">
+            <img src="https://i.kym-cdn.com/editorials/icons/mobile/000/010/866/just-a-chill-guy.jpg" alt="Image 1"
+                id="img1">
+            <img src="https://i.kym-cdn.com/editorials/icons/mobile/000/010/866/just-a-chill-guy.jpg" alt="Image 1"
+                id="img1">
+            <img src="https://i.kym-cdn.com/editorials/icons/mobile/000/010/866/just-a-chill-guy.jpg" alt="Image 1"
+                id="img1">
+            <img src="https://i.kym-cdn.com/editorials/icons/mobile/000/010/866/just-a-chill-guy.jpg" alt="Image 1"
+                id="img1">
+        </div>
+    </div>
+</body>
+
+</html>
